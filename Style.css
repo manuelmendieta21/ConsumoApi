@@ -1,0 +1,91 @@
+@media (max-width:1920px) {
+    body{
+        background-color: rgb(4, 113, 2);
+    }
+}
+
+@media (max-width:600px) {
+    body{
+        background-color: #0277bd;
+
+    }
+
+    header{
+        height: 6rem;
+        padding: 15px;
+        min-width: 230px;
+        display: flex;
+        justify-content: center;
+    }
+    .main-title{
+        font-size: 40px;
+        font-family: "Poetsen One", sans-serif;
+        font-style: normal;
+        color: #b2ebf2;
+    }
+
+    
+    .contenedor{
+        height: 100%;    
+    }
+    .contenerimg{ 
+        padding: auto;
+        box-shadow: inset;   
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    img{
+        background-color:#eceb85a4 ;
+        -webkit-box-shadow: -1px 14px 58px 12px rgba(0,0,0,0.75);
+        -moz-box-shadow: -1px 14px 58px 12px rgba(0,0,0,0.75);
+        box-shadow: -1px 14px 58px 12px rgba(0,0,0,0.75);
+        padding: 20px;
+        border-radius: 3rem;
+        min-width: 30%;
+        max-width: 70%;
+        height: auto;
+    }
+    
+    .controlbuttones{
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+    }
+    button{
+        width: 150px;
+        height: 50px;
+        background-color:#80DEEA;
+        font-family: "Poetsen One", sans-serif;
+        color:#03424a;
+        border-radius: 10px;
+        font-size: 1rem;
+    }
+    
+    .menuinferior{
+        width: 400px;
+        height: 50px;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        bottom: -0.8rem;
+        display: flex;
+        background-color: aquamarine;
+    }
+    ul{
+        padding: 3px;
+        margin: 3px;
+        list-style: none;
+        display: flex;
+        background-color: aqua;
+        width: 400px;
+        height: 50px;
+        justify-content: space-around;
+
+    }
+    i{
+        font-size: 2.5rem;
+    }
+
+}
